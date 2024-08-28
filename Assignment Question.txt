@@ -1,0 +1,21 @@
+Assignment: Sales Analysis
+----------------------------
+ 
+Objective: Generate a sales report that includes total sales, average sales, and rank the sales representatives by their total sales.
+ 
+Database Schema:
+ 
+Sales
+ 
+SaleID (Primary Key)
+SalesRepID (Foreign Key referencing SalesReps.SalesRepID)
+Amount
+SaleDate
+SalesReps
+ 
+SalesRepID (Primary Key)
+Name
+Task:
+ 
+Create a query that calculates the total sales, average sales per month for each sales representative, and ranks them by total sales.
+The ranking should be reset for each month (i.e., start from 1 each month).
